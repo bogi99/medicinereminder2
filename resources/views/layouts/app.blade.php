@@ -36,6 +36,11 @@
 
     <!-- Footer -->
     <footer class="bg-white dark:bg-gray-800 text-center py-4 mt-auto shadow">
+        <div class="flex justify-center mb-4">
+            <a href="https://www.buymeacoffee.com/samkhangyi"><img
+                    src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=samkhangyi&button_colour=c01c28&font_colour=ffffff&font_family=Poppins&outline_colour=ffffff&coffee_colour=FFDD00" /></a>
+        </div>
+
         <span class="text-sm">&copy; {{ date('Y') }} {{ config('app.name') }}. All rights reserved.</span>
         <div class="text-xs text-gray-500 mt-2">This site uses only essential cookies for session management. No
             tracking or analytics cookies are used.</div>
