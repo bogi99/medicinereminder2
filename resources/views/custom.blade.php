@@ -55,7 +55,7 @@
                     onsubmit="return confirm('Are you sure you want to reset today?');">
                     @csrf
                     <button type="submit" class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">Reset
-                        Day</button>
+                        Schedule</button>
                 </form>
             </div>
             <script>
