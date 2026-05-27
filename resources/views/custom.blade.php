@@ -27,7 +27,7 @@
                 <div class="text-xs text-gray-500 mt-1 text-right">{{ $percent }}%</div>
             </div>
         @endif
-        <h2 class="text-xl font-semibold mb-4">Today's Medication Schedule</h2>
+        <h2 class="text-xl font-semibold mb-4">Current Medication Schedule</h2>
         @if (empty($schedule))
             <div class="mb-4 text-gray-500">Nothing is setup yet. Please go to <a href="{{ route('setup') }}"
                     class="text-blue-600 underline">Setup</a> to add your pills.</div>
