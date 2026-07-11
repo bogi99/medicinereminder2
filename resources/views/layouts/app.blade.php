@@ -37,9 +37,16 @@
     <!-- Footer -->
     <footer class="bg-white dark:bg-gray-800 text-center py-4 mt-auto shadow">
         <div class="flex justify-center mb-4">
-            <a href="https://www.buymeacoffee.com/samkhangyi"><img
-                    src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=samkhangyi&button_colour=c01c28&font_colour=ffffff&font_family=Poppins&outline_colour=ffffff&coffee_colour=FFDD00" /></a>
+            <a href="https://www.buymeacoffee.com/samkhangyi"
+                class="inline-flex items-center rounded-md bg-red-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 dark:focus:ring-offset-gray-800">
+                Buy me a coffee
+            </a>
         </div>
+        <div class="text-sm text-gray-500 dark:text-gray-400 mb-2">This is a personal project developed by me Sam at <a
+            href="https://shop4web.ca"
+            class="underline hover:text-blue-600">shop4web.ca</a> and is not affiliated
+            with any medical institution. It is intended for personal use only. Please consult a healthcare
+            professional for medical advice.</div>
 
         <span class="text-sm">&copy; {{ date('Y') }} {{ config('app.name') }}. All rights reserved.</span>
         <div class="text-xs text-gray-500 mt-2">This site uses only essential cookies for session management. No

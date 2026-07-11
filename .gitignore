@@ -25,3 +25,4 @@ Thumbs.db
 push-to-server.sh
 .rsync-exclude
 /public/documentation/*.png
+.env.before_lerd

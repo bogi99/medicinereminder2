@@ -1,0 +1,7 @@
+domains:
+    - medcheck2
+php_version: "8.5"
+framework: laravel
+framework_version: "12"
+services:
+    - sqlite
